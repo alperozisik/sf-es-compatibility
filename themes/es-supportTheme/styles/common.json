@@ -1,0 +1,28 @@
+{
+	".lblValue": {
+		"width": null,
+		"height": null,
+		"text": "<Value>",
+		"flexProps": {
+			"flexGrow": 1
+		},
+		"&-title": {
+			"marginLeft": 10,
+			"font": {
+				"size": 16,
+				"bold": true,
+				"italic": false,
+				"family": "Default",
+				"style": "Bold"
+			}
+		},
+		"&-success": {
+			"marginLeft": 40,
+			"textColor": "rgba( 65, 117, 5, 1 )"
+		},
+		"&-failure": {
+			"marginLeft": 40,
+			"textColor": "rgba( 208, 2, 27, 1 )"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"Defaults": {
+		"ActivityIndicator": ".activityIndicator",
+		"Button": ".button",
+		"FlexLayout": ".flexLayout",
+		"HeaderBar": ".headerBar",
+		"ImageView": ".imageView",
+		"Label": ".label",
+		"ListView": ".listView",
+		"MapView": ".mapView",
+		"Page": ".page",
+		"SearchView": ".searchView",
+		"Slider": ".slider",
+		"StatusBar": ".statusBar",
+		"Switch": ".switch",
+		"TextBox": ".textBox",
+		"TextArea": ".textArea",
+		"VideoView": ".videoView",
+		"WebView": ".webView",
+		"ScrollView": ".scrollView",
+		"ListViewItem": ".listViewItem"
+	}
+}

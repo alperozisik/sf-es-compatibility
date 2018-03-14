@@ -1,0 +1,13 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "es-supportTheme",
+			"themes": [
+				"defaultTheme",
+				"es-supportTheme"
+			],
+			"baseTheme": "es-supportTheme"
+		},
+		"version": "6.6.3"
+	}
+}

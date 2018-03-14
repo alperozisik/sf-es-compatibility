@@ -1,0 +1,152 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "cf33-7dbe-2447-fdca",
+			"initialized": true,
+			"props": {
+				"children": [
+					"f90c-a1d2-653b-2d39",
+					"1c76-1d79-771d-f1f1",
+					"a425-d023-13a9-c804",
+					"034c-75cf-e47f-4eec",
+					"afa2-9b6f-6d80-9ba5",
+					"39b7-c84c-0695-71f4"
+				],
+				"name": "pgResults",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )"
+			},
+			"version": "6.6.3"
+		},
+		{
+			"className": ".statusBar",
+			"id": "f90c-a1d2-653b-2d39",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "cf33-7dbe-2447-fdca"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "1c76-1d79-771d-f1f1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "cf33-7dbe-2447-fdca",
+				"title": "SF ES Compatibility"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "SF ES Compatibility"
+			}
+		},
+		{
+			"className": ".label",
+			"id": "a425-d023-13a9-c804",
+			"props": {
+				"children": [],
+				"name": "lblSummary",
+				"parent": "cf33-7dbe-2447-fdca",
+				"text": "<Summary>",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"marginLeft": 10,
+				"marginRight": 10,
+				"text": "<Summary>",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".label",
+			"id": "034c-75cf-e47f-4eec",
+			"props": {
+				"children": [],
+				"name": "lblOS",
+				"parent": "cf33-7dbe-2447-fdca",
+				"text": "<OS>",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"marginLeft": 10,
+				"marginRight": 10,
+				"text": "<OS>",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".listView",
+			"id": "afa2-9b6f-6d80-9ba5",
+			"props": {
+				"children": [],
+				"itemCount": null,
+				"name": "lvDetails",
+				"parent": "cf33-7dbe-2447-fdca",
+				"rowHeight": 60,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": null,
+				"itemCount": null,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "39b7-c84c-0695-71f4",
+			"props": {
+				"children": [
+					"399b-5dc4-56da-89ca"
+				],
+				"name": "flWait",
+				"parent": "cf33-7dbe-2447-fdca",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"bottom": 0,
+				"flexProps": {
+					"justifyContent": "CENTER",
+					"alignItems": "CENTER",
+					"positionType": "ABSOLUTE"
+				},
+				"height": null,
+				"left": 0,
+				"right": 0,
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".activityIndicator",
+			"id": "399b-5dc4-56da-89ca",
+			"props": {
+				"children": [],
+				"name": "aiWait",
+				"parent": "39b7-c84c-0695-71f4"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		}
+	]
+}
