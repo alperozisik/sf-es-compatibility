@@ -14,7 +14,13 @@ Application.onUnhandledError = function(e) {
     });
 };
 
-require("sf-extension-utils");
+
+
+// require("sf-extension-utils");
+// require('core-js');
+
+// require("./promise");
+
 const Router = require("sf-core/ui/router");
 const config = require("./settings.json").config;
 const themeConfig = config.theme;

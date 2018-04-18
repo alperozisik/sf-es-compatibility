@@ -14,14 +14,15 @@
 					"39b7-c84c-0695-71f4"
 				],
 				"name": "pgResults",
-				"orientation": "PORTRAIT",
+				"orientation": "AUTO",
 				"parent": null
 			},
 			"type": "Page",
 			"userProps": {
-				"backgroundColor": "rgba( 255, 255, 255, 1 )"
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"orientation": "AUTO"
 			},
-			"version": "6.6.3"
+			"version": "6.6.4"
 		},
 		{
 			"className": ".statusBar",

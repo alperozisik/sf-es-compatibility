@@ -12,3 +12,5 @@ plugin/*
 scripts/node_modules
 scripts/ui
 scripts/themes
+node_modules
+package.json

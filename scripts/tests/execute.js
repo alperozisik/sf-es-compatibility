@@ -32,14 +32,14 @@ function execute(callback) {
             iterable[Symbol.iterator] = function() { return iterator; };
             return iterable;
         };
-
+        console.log(tests[index].script);
         eval(tests[index].script);
     }
 
     setTimeout(function() {
         global.suspendErrors = false;
         callback && callback(null, tests);
-    }, 1000);
+    }, 5000);
 
 }
 
